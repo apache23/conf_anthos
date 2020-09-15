@@ -1,0 +1,8 @@
+---
+apiVersion: "poc.anthos.acdc/v1"
+kind: RqliteCluster
+metadata:
+  name: rqlite-everywhere
+spec:
+  nodes: 4
+  persistent: yes 

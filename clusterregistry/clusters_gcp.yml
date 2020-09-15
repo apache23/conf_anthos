@@ -1,0 +1,23 @@
+---
+kind: Cluster
+apiVersion: clusterregistry.k8s.io/v1alpha1
+metadata:
+  name: poc-anthos-gke-fgd-apo
+  labels:
+    environnement: staging
+    operators: desi-xaas
+    region: europe-west1
+    datacenter: europe-west1-d
+    external: "yes"
+---
+kind: Cluster
+apiVersion: clusterregistry.k8s.io/v1alpha1
+metadata:
+  name: poc-anthos-ora-gke
+  labels:
+    environnement: staging
+    operators: desi-xaas
+    region: europe-west1
+    datacenter: europe-west1-d
+    external: "yes"
+
