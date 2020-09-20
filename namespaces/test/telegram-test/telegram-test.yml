@@ -1,7 +1,7 @@
 apiVersion: apacheco.apacheco.io/v1beta1
 kind: TelegramMessage
 metadata:
-  generation: 1
+        #  generation: 1
   labels:
     controller-tools.k8s.io: "1.0"
   name: ara-first-test
