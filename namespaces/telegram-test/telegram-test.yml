@@ -5,6 +5,7 @@ metadata:
   labels:
     controller-tools.k8s.io: "1.0"
   name: ara-first-test
+  namespace: telegram-test
 spec:
   containers:
   - image: aracelypacheco/example-operator:instagram
