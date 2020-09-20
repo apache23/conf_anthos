@@ -16,7 +16,7 @@ metadata:
   name: rescue-account
   namespace: kube-system
 ---
-apiVersion: rbac.authorization.k8s.io
+apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: RoleBinding
 metadata:
   name: rescue-admin-access
@@ -24,7 +24,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: rescue-account
-  apiGroup: rbac.authorization.k8s.io
+  namespace: kube-system
 roleRef:
   kind: Role
   name: admin
